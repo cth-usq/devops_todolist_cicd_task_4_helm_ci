@@ -64,7 +64,6 @@ jobs:
 
   docker-ci:
     runs-on: ubuntu-latest
-    if: github.ref_name == 'main'
     needs: python-ci
     steps:
 
